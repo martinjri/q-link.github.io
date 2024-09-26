@@ -77,17 +77,17 @@
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --theme-color: #93A87E;
-  --theme-color2: #D7FE03;
-  --title-color: #000000;
+  --theme-color: #196164;
+  --theme-color2: #C4F500;
+  --title-color: #19352D;
   --body-color: #7A7A7A;
   --smoke-color: #EBF3EE;
   --smoke-color2: #F6F6F7;
   --smoke-color3: #F5F5F6;
   --smoke-color4: #F4F4F4;
   --smoke-color5: #F0F2F4;
-  --black-color: #000000;
-  --gray-color: #AFAFAF;
+  --black-color: #202420;
+  --gray-color: #232323;
   --white-color: #ffffff;
   --light-color: #9fa2ad;
   --yellow-color: #FFB539;
@@ -177,7 +177,6 @@ img:not([draggable]),
 embed,
 object,
 video {
-  max-width: 100%;
   height: auto;
 }
 
@@ -7155,7 +7154,7 @@ li.trackback {
   bottom: 20%;
   width: 390px;
   height: 390px;
-  background: #D7FE03;
+  background: #C4F500;
   clip-path: path("M236.5 0L472.492 390H0.508072L236.5 0Z");
   z-index: -1;
 }
@@ -11048,7 +11047,7 @@ li.trackback {
   width: 30px;
   border-radius: 5px;
   line-height: 30px;
-  background: #D7FE03;
+  background: #C4F500;
   border: 0;
   font-family: var(--icon-font);
   color: var(--theme-color);

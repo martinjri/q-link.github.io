@@ -4221,10 +4221,11 @@ ul.wp-block-latest-posts li:last-child {
 }
 
 .footer-text {
-  margin-top: -0.45em;
+  /*margin-top: -0.45em; */
   margin-bottom: 16px;
+  margin-left: 160px;
   color: var(--body-color);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   font-family: var(--title-font);
 }

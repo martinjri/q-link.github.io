@@ -1,60 +1,1389 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Theme Switch</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      background-color: #f4f4f4;
-    }
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Q Link Mockup Light</title>
+    <meta name="description" content="Q Link Mockup Light">
+    <meta name="keywords" content="Q Link Mockup Light">
+    <meta name="robots" content="INDEX,FOLLOW">
 
-    .container {
-      text-align: center;
-    }
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    .btn {
-      padding: 15px 30px;
-      margin: 10px;
-      font-size: 58px;
-      color: white;
-      text-decoration: none;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      display: inline-block;
-    }
+    <!-- Favicons - Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
 
-    .light-btn {
-      background-color: #D7FE03;
-    }
+    <!--==============================
+	  Google Fonts
+	============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
 
-    .light-btn:hover {
-      background-color: #93A87E;
-    }
 
-    .dark-btn {
-      background-color: #000000;
-    }
+    <!--==============================
+	    All CSS File
+	============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    .dark-btn:hover {
-      background-color: #93A87E;
-    }
-  </style>
 </head>
+
 <body>
+    <!--********************************
+   		Code Start From Here 
+	******************************** -->
 
-  <div class="container">
-    <a href="light.html" class="btn light-btn">Light</a>
-    <a href="dark.html" class="btn dark-btn">Dark</a>
-  </div>
 
+
+
+    <!--==============================
+     Preloader
+    ==============================-->
+    <div class="preloader ">
+        <div class="preloader-inner">
+            <span class="loader"></span>
+        </div>
+    </div>
+
+    <!--==============================
+    Sidemenu
+============================== -->
+    <div class="sidemenu-wrapper sidemenu-info ">
+        <div class="sidemenu-content">
+            <button class="closeButton sideMenuCls"><i class="fas fa-times"></i></button>
+            <div class="widget  ">
+                <div class="th-widget-about">
+                    <div class="about-logo">
+                        <a href="#"><img src="assets/img/logos/Ian's logo changes-10.png" alt="Laun" style="max-width: 287px;"></a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="side-info mb-30">
+                <div class="contact-list mb-20">
+                    <h4>Office Address</h4>
+                    <p>375 Oberon Ave,
+                        Faerie Glen,
+                        Pretoria <br />
+                        3 Sundown Valley, Sandton<br />
+                        Cape Town
+                    </p>
+                </div>
+                <div class="contact-list mb-20">
+                    <h4>Phone Number</h4>
+                    <p class="mb-0"><a href="#">+27 (0) 12 443 6300</a> <br />
+                        <a href="#">+27 (0) 11 719 8000</a></p>
+                </div>
+                <div class="contact-list mb-20">
+                    <h4>Email Address</h4>
+                    <p class="mb-0">info@qlink.co.za</p>
+                    <p>info@nutuntransact.com</p>
+                </div>
+            </div>
+            <ul class="side-instagram list-wrap">
+                <li><a href="#"><img src="assets/img/gallery/1.jpg" alt=""></a></li>
+                <li><a href="#"><img src="assets/img/gallery/2.jpg" alt=""></a></li>
+                <li><a href="#"><img src="assets/img/gallery/3.jpg" alt=""></a></li>
+                <li><a href="#"><img src="assets/img/gallery/4.jpg" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="popup-search-box">
+        <button class="searchClose"><i class="fas fa-times"></i></button>
+        <form action="#">
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+
+    <!--==============================
+    Mobile Menu
+    ============================== -->
+    <div class="mobile-menu-wrapper">
+        <div class="mobile-menu-area">
+            <div class="mobile-logo">
+                <a href="#"><img src="assets/img/logos/Ian's logo changes-10.png" alt="Q Link" style="max-width: 187px;"></a>
+                <button class="menu-toggle"><i class="fa fa-times"></i></button>
+            </div>
+            <div class="mobile-menu">
+                <ul>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Industry Insights</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+	Header Area
+    ==============================-->
+    <header class="nav-header header-layout1">
+        <div class="sticky-wrapper">
+            <!-- Main Menu Area -->
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <div class="header-logo">
+                            <a href="#"><img src="assets/img/logos/Ian's logo changes-10.png" alt="logo" style="max-width: 187px;"></a>
+                        </div>
+                    </div>
+                    <div class="col-auto ms-xl-auto">
+                        <nav class="main-menu d-none d-lg-inline-block">
+                            <ul>
+                                <li>
+                                    <a href="#">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Industry Insights</a>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="navbar-right d-inline-flex d-lg-none">
+                            <button type="button" class="menu-toggle icon-btn"><i class="fas fa-bars"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-auto ms-xxl-4 d-xl-block d-none">
+                        <div class="header-wrapper">
+                            <div class="header-button">
+                                <button type="button" class="simple-icon searchBoxToggler"><i
+                                        class="fas fa-search"></i></button>
+                                <a href="#" class="simple-icon sideMenuToggler d-none d-lg-block"> <img
+                                        src="assets/img/icon/bars.svg" alt=""> </a>
+                            </div>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--==============================
+    Hero Area
+    ==============================-->
+    <div class="hero-wrapper hero-2" id="hero" style="background-image: url(assets/img/hero/hero_lady_2.png);">
+        <!-- <div class="hero-shape1"><img src="assets/img/" alt=""></div>
+        <div class="hero-shape2"></div> -->
+        <div class="container">
+            <div class="hero-style2">
+                <h1 class="hero-title text-white">Credibility<span class="hero-title2">in Motion</span></h1>
+                <p class="hero-text text-white">Innovative transaction solutions powered by an advanced, cloud-based platform. 
+                    Optimise payments, collections, and payroll, driving efficiency and growth for your business.</p>
+                <div class="btn-group">
+                    <a href="#" class="global-btn">Explore More<img src="assets/img/icon/right-icon.svg"
+                            alt=""></a>
+                    <div class="media-wrap">
+                        <div class="icon">
+                            <a href="#" class="play-btn popup-video"><i
+                                    class="fas fa-solid fa-play"></i> </a>
+                        </div>
+                        <div class="media-body">
+                            <h6 class="title text-white">See How It Works</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======== / Hero Section ========-->
+
+    <!--==============================
+    Service Area 01  
+    ==============================-->
+    <div class="service-area-1 space overflow-hidden">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7">
+                    <div class="title-area text-center">
+                        <div class="title-area me-xl-5 mb-20">
+                            <span class="sub-title"><img src="assets/img/favicons/QLink-08.png" style="max-height: 40px;" alt="shape">Services we offer</span>
+                        </div>
+                        <h2 class="sec-title style2" style="color: #196164;">Innovation, Customisation and Full Integration</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row gx-30 gy-30 justify-content-center">
+                <div class="col-md-6">
+                    <div class="service-card">
+                        <div class="service-card_img">
+                            <img src="assets/img/service/service-1-1.png" alt="img">
+                        </div>
+                        <div class="service-card_content">
+                            <h4 class="service-card_title"><a href="#">Payroll</a></h4>
+                            <p class="service-card_text">Our PeopleWare software is an integrated platform that caters to all 
+                                your Payroll and HR needs—User-friendly and available on cloud or on-premise.<br><br></p>
+                            <a href="#" class="link-btn">Read More <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-card">
+                        <div class="service-card_img">
+                            <img src="assets/img/service/service-1-2.png" alt="img">
+                        </div>
+                        <div class="service-card_content">
+                            <h4 class="service-card_title"><a href="#">Payments</a></h4>
+                            <p class="service-card_text">
+                                Our payment processing platforms are web-based and flexible putting the control back in your 
+                                hands and allowing our clients to securely manage their payment transactions. 
+                            </p>
+                            <a href="#" class="link-btn">Read More <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-card">
+                        <div class="service-card_img">
+                            <img src="assets/img/service/service-1-3.png" alt="img">
+                        </div>
+                        <div class="service-card_content">
+                            <h4 class="service-card_title"><a href="#">Collections</a></h4>
+                            <p class="service-card_text">
+                                Q LINK provides an intelligent mechanism that optimizes the success rate of debit order 
+                                collections. This service helps to minimize costs by automatically switching a ....</p>
+                            <a href="#" class="link-btn">Read More <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-card">
+                        <div class="service-card_img">
+                            <img src="assets/img/service/service-1-4.png" alt="img">
+                        </div>
+                        <div class="service-card_content">
+                            <h4 class="service-card_title"><a href="#">Verification and Risk Solutions</a></h4>
+                            <p class="service-card_text">Specialises in interpreting validated data into transactional payment flows, 
+                                ensuring maximum success at the most efficient rates and helping our clients minimise risk through data integrity. </p>
+                            <a href="#" class="link-btn">Read More <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-card">
+                        <div class="service-card_img">
+                            <img src="assets/img/service/moneyhub.png" alt="img">
+                        </div>
+                        <div class="service-card_content">
+                            <h4 class="service-card_title"><a href="#">MoneyHub</a></h4>
+                            <p class="service-card_text">The Future of Digitising Payments and Collections. MoneyHub provides 
+                                a full money management capability to organizations, ensuring that all expected premiums are 
+                                accounted for.  </p>
+                            <a href="#" class="link-btn">Read More <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-card">
+                        <div class="service-card_img">
+                            <img src="assets/img/service/emolument.png" alt="img">
+                        </div>
+                        <div class="service-card_content">
+                            <h4 class="service-card_title">
+                                <a href="#">Emolument Attachment Orders</a>
+                            </h4>
+                            <p class="service-card_text">
+                                This is a comprehensive court order deduction service between 
+                                debt collectors, attorneys, magistrates, and payrolls, and includes full verification to 
+                                ensure that legal requirements are met. 
+                            </p>
+                            <a href="#" class="link-btn">Read More 
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-card">
+                        <div class="service-card_img">
+                            <img src="assets/img/service/membership.png" alt="img">
+                        </div>
+                        <div class="service-card_content">
+                            <h4 class="service-card_title"><a href="#">Membership Administration</a></h4>
+                            <p class="service-card_text">This membership administration system enables trade unions or 
+                                associations and similar organizations to manage the total administration of membership matters, 
+                                including the automated ...</p>
+                            <a href="#" class="link-btn">Read More <i
+                                    class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <p>&nbsp;</p>
+
+        <!--==============================
+    Banks involved
+    ==============================-->
+        
+    <div class="marquee-area bg-smoke">        
+        <div class="row justify-content-center">
+            <div class="col-xl-7">
+                <div class="title-area text-center">
+                    <div class="title-area me-xl-5 mb-20">
+                        <span class="sub-title">
+                            <img src="assets/img/favicons/QLink-08.png" style="max-height: 40px;" alt="shape">
+                            Participating Banks
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0 overflow-hidden">
+            <div class="slider__marquee">
+                <div class="marquee_mode">
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/client/discovery-01.png" alt="img" style="max-width: 190px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/absa-01.png" alt="img" style="max-height: 70px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/access-bank-01.png" alt="img" style="max-height: 50px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/bank-zero-logo-1.png" alt="img" style="max-height: 50px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/bidvest-01.png" alt="img" style="max-height: 50px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/finbondlogo 1.png" alt="img" style="max-height: 70px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/FNB-Logo 1.png" alt="img" style="max-height: 70px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/investec-01.png" alt="img" style="max-height: 90px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/logo-01.png" alt="img" style="max-height: 70px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/Mercantile_Bank_2.png" alt="img" style="max-height: 60px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/nedbank-01.png" alt="img" style="max-height: 90px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/Sasfin_Bank_1.png" alt="img" style="max-height: 50px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/standard-bank-logo 1.png" alt="img" style="max-height: 50px;">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="assets/img/Banks/TymeBank_1.png" alt="img" style="max-height: 70px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>   
+    <!--==============================   CTA Area   ==============================-->
+    <div class="cta-area-1 space-bottom">
+        <div class="container">
+            <div class="cta-wrap1">
+                <div class="row gy-4 justify-content-md-between align-items-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="title-area mb-md-0">
+                            <h2 class="sec-title style2 ">Let's find the best solutions <br />fit for your business today!</h2>
+                            <p class="cta-desc text-white mb-0">Speak to one of our business development and payroll specialists today!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="client-box mb-sm-0 mb-5">
+                            <div class="client-thumb">
+                                <div class="client-thumb-group">
+                                    <div class="thumb"><img src="assets/img/client/client-img-1-1.png" alt="avater">
+                                    </div>
+                                    <div class="thumb"><img src="assets/img/client/client-img-1-2.png" alt="avater">
+                                    </div>
+                                    <div class="thumb"><img src="assets/img/client/client-img-1-3.png" alt="avater">
+                                    </div>
+                                    <div class="thumb icon"><i class="fas fa-plus"></i></div>
+                                </div>
+                                <div class="client-box-content">
+                                    <h4 class="cilent-box_counter">R<span class="counter-number">4.5 </span>  billion+
+                                    </h4>
+                                    <span class="cilent-box_title">collected every month</span>
+                                </div>
+                            </div>
+                            <div class="cta-btn">
+                                <a class="global-btn style-border" href="#">contact us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    About Area  
+    ==============================-->
+    <div class="about-area-1 position-relative space-top">
+        <div class="about1-shape-img1">
+            <img class="about1-shape-img-1" src="assets/img/normal/Pattern-04.png" alt="img" style="max-width: 1165px;">
+        </div>
+        <div class="about1-shape-img2">
+            <img class="about1-shape-img-2" src="assets/img/normal/about_shape1-2.png" alt="img">
+        </div>
+        <div class="container">
+            <div class="row gx-60 align-items-center">
+                <div class="col-xl-6">
+                    <div class="about-content-wrap">
+                        <div class="title-area me-xl-5 mb-20">
+                            <span class="sub-title">
+                                <img src="assets/img/favicons/QLink-08.png" style="max-height: 40px;" alt="shape">
+                                About Us
+                            </span>
+                            <h2 class="sec-title">An Ecosystem of advanced technology solutions</h2>
+                        </div>
+                        <div class="achive-about">
+                            <div class="achive-about_content">
+                                <div class="media-body">
+                                    <p class="achive-about_text">
+                                        Q LINK is a market leader with over 45 years of experience and credibility. Trusted by Insurers, Banks, Finance providers, employers and Unions with collecting over R4,5 billion every month. Handling payments for over 4.5 million employed citizens every month and processing more than 14 million deduction instructions per month.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-wrap mt-20">
+                            <a href="#" class="global-btn mt-xl-0 mt-20">Read More <i
+                                    class="fas fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--==============================  Process Area  ==============================-->
+    <section class="process-area-1 bg-smoke space-bottom" style="background-image: url(assets/img/hero/hero_bg_5_1.png);">
+        <!--==============================  Client Area   ==============================-->
+    <div class="marquee-area space-top">
+        <div class="container-fluid p-0 overflow-hidden">
+            <div class="container"></div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 space-top">               
+                        <div class="title-area text-center">
+                            <p>&nbsp;</p>
+                            <div class="title-area">
+                                    <span class="text-white"><img src="assets/img/favicons/QLink-10.png" style="max-height: 40px; color: white;" alt="shape"> LINK is a Registered Member of</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__marquee">
+                <div class="marquee_mode">
+                    <div class="item">
+                        <a href="#"><img src="assets/img/member/SAPA-logo2017a 2.png" alt="img" style="max-width: 150px;"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/img/member/emblem 2.png" alt="img" style="max-width: 150px;"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/img/member/PASA 2.png" alt="img" style="max-width: 95px;"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/img/member/pssf_logo-scaled 2.png" alt="img" style="max-width: 150px;"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/img/member/logoBanner 2.png" alt="img" style="height: 100px;"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/img/member/ISO_27001_white.png" alt="img" width="100"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+        <div class="container space-top">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="title-area text-center">
+                        <span class="sub-title" style="color: #c4f500;"><img src="assets/img/favicons/QLink-09.png" alt="shape" style="max-height: 40px;">Campaigns</span>
+                        <h2 class="sec-title style2" style="color: #c4f500;">Simplified Solutions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="service-area-4 position-relative">
+                <div class="shadow-shape-right"></div>
+                <div class="container">
+                    <div class="row gx-30 gy-30 justify-content-center">
+                        <div class="col-xl-4 col-md-6">
+                            <div class="service-card-4">
+                                <div class="service-card-thumb">
+                                    <img src="assets/img/campaign/1 campaign images.png" alt="img">
+                                </div>
+                                <div class="service-card_content">
+                                    <h4 class="service-card_title"><a href="#">Payment Solutions</a></h4>
+                                    <p class="service-card_text">We can help you create teh ideal payment environment for your business, ensuring smooth end-to-end secure processing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="service-card-4">
+                                <div class="service-card-thumb">
+                                    <img src="assets/img/campaign/2 campaign images.png" alt="img">
+                                </div>
+                                <div class="service-card_content">
+                                    <h4 class="service-card_title"><a href="#">Secure Payments Platform</a></h4>
+                                    <p class="service-card_text">Business continuity starts with solutions you can trust. Our solutions focus on innovation, customisation... <br><br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="service-card-4">
+                                <div class="service-card-thumb">
+                                    <img src="assets/img/campaign/3 campaign images.png" alt="img">
+                                </div>
+                                <div class="service-card_content">
+                                    <h4 class="service-card_title"><a href="#">Efficient Payment Management</a></h4>
+                                    <p class="service-card_text">We provide your business with an online payment platform built for future-ready business.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--==============================
+    Why choose Us Area  
+    ==============================-->
+    <div class="wcu-area-2 space-bottom space-top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="title-area text-center me-xl-4 ms-xl-4">
+                        <span class="sub-title"><img src="assets/img/favicons/QLink-08.png" alt="shape" style="max-height: 40px;">We Deliver</span>
+                        <h2 class="sec-title style2">Partnering for Success</h2>
+                    </div>
+                    <p class="text-center" style="font-size: 20px;">Our credo is "Credibility in Motion" and our services exemplify this. Q LINK's 
+                        sophisticated toolsets enhance the collections efficiency of responsible service 
+                        providers in support of fair collections practices for employees and consumers. 
+                        We have an impressive track record, spanning more than two decades, in service 
+                        excellence and delivery of substantial improvements for collectors and payers alike.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6">
+                    <div class="wcu-thumb">
+                        <div class="wcu-thumb-1">
+                            <img src="assets/img/normal/wcu-thumb-1-1.png" alt="img">
+                        </div>
+                        <div class="wcu-shape jump">
+                            <img src="assets/img/normal/1.png" alt="img">
+                        </div>
+                        <div class="wcu-shape2 movingX"> 
+                            <img src="assets/img/normal/2.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="wcu-card-wrap">
+                        <div class="wcu-card">
+                            <div class="icon">
+                                <img src="assets/img/icon/wcu-icon_2-1.svg" alt="img">
+                            </div>
+                            <div class="wcu-card-details">
+                                <h4 class="wcu-card-title">Effortless</h4>
+                                <p class="wcu-card-text">Our highly advanced interfaces and host-to-host services are tailor-made to YOUR needs.</p>
+                            </div>
+                        </div>
+                        <div class="wcu-card">
+                            <div class="icon">
+                                <img src="assets/img/icon/wcu-icon_2-3.svg" alt="img">
+                            </div>
+                            <div class="wcu-card-details">
+                                <h4 class="wcu-card-title">Best Success Rate</h4>
+                                <p class="wcu-card-text">We don't just improve the efficiency of the collections process, we also enhance the success of its outcome.</p>
+                            </div>
+                        </div>
+                        <div class="wcu-card">
+                            <div class="icon">
+                                <img src="assets/img/icon/wcu-icon_2-3.svg" alt="img">
+                            </div>
+                            <div class="wcu-card-details">
+                                <h4 class="wcu-card-title">Adaptable</h4>
+                                <p class="wcu-card-text">Innovation, customisation and full integration define our solutions. Our goal is to help your business run optimally and securely.</p>
+                            </div>
+                        </div>
+                        <div class="wcu-card">
+                            <div class="icon">
+                                <img src="assets/img/icon/wcu-icon_2-2.svg" alt="img">
+                            </div>
+                            <div class="wcu-card-details">
+                                <h4 class="wcu-card-title">Trustworthy</h4>
+                                <p class="wcu-card-text">With a reputation built over four decades, Q Link upholds the highest standards of corporate governance and compliance structures.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    Marquee Area 01  
+    ==============================-->
+    <div class="marquee-area bg-theme2">
+        <div class="container-fluid p-0 overflow-hidden">
+            <div class="slider__marquee">
+                <div class="marquee_mode">
+                    <div class="item">
+                        <a href="#"><img src="assets/img/favicons/QLink-08.png" alt="img" style="width: 75px;"><span class="text-stroke">Credibility in Motion</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/img/favicons/QLink-10.png" alt="img" style="width: 75px;"><span>Credibility in Motion</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/img/favicons/QLink-08.png" alt="img" style="width: 75px;"><span class="text-stroke">Credibility in Motion</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/img/favicons/QLink-10.png" alt="img" style="width: 75px;"><span>Credibility in Motion</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!--============================== Testimonial Area  ==============================-->
+
+    <div class="testimonial-area-1 space overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="title-area">
+                        <h2 class="sec-title style2">Client Testimonials</h2>
+                    </div>
+                    <div class="testimonial-thumb1">
+                        <img src="assets/img/testimonial/close_up_building.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="title-area">
+                        <p class="testi-desc" style="font-size: 22px;">Trusted by top organizations, we ensure improved collection efficiency and financial access, positioning your business for success in today's fast-paced, evolving marketplace.</p>
+                    </div>
+                    <div class="testi-area-slider">
+                        <div class="row global-carousel testi-slider-1" data-slide-show="1" data-md-slide-show="1"
+                            data-arrows="true" data-xl-arrows="true" data-ml-arrows="true" data-lg-arrows="true">
+                            <div class="col-lg-6">
+                                <div class="testi-card">
+                                    <div class="testi-card_content">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testi-card_text">Collections through intelligence, efficient complete process from A-Z, Credible Name.</p>
+                                        <div class="testi-card-profile">
+                                            <div class="testi-card-profile-details">
+                                                <h4 class="testi-profile-title">Emily Dzimwasha</h4>
+                                                <span class="testi-profile-desig">Liberty</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="quote-icon">
+                                        <img src="assets/img/icon/quote1-1.svg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="testi-card">
+                                    <div class="testi-card_content">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testi-card_text">Over time we built on mutual trust and respect and with the expansion of services provided, we also started using Q LINK 
+                                            for our Bank Collection optimization. As you had proven yourself to be the best in what you do, we will continue using Q LINK
+                                        </p>
+                                        <div class="testi-card-profile">
+                                            <div class="testi-card-profile-details">
+                                                <h4 class="testi-profile-title">Chris van Wyk</h4>
+                                                <span class="testi-profile-desig">Old Mutual</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="quote-icon">
+                                        <img src="assets/img/icon/quote1-1.svg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="testi-card">
+                                    <div class="testi-card_content">
+                                        <div class="rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <p class="testi-card_text">Efficient, credible, integrity and affordable rates - yes we will.</p>
+                                        <div class="testi-card-profile">
+                                            <div class="testi-card-profile-details">
+                                                <h4 class="testi-profile-title">Gert Wessels</h4>
+                                                <span class="testi-profile-desig">Assupol</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="quote-icon">
+                                        <img src="assets/img/icon/quote1-1.svg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--==============================
+    Client & Partners Area  
+    ==============================-->
+    <div>
+        <div class="marquee-area bg-smoke">
+            <div class="container-fluid p-0 overflow-hidden">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6">
+                            <div class="title-area text-center">
+                                <span class="sub-title"><img src="assets/img/favicons/QLink-08.png" alt="shape" style="max-height: 40px;;">Our
+                                    Clients & Partners</span>
+                                <h2 class="sec-title">Clients</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__marquee">
+                    <div class="marquee_mode">
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/metropolitan-01.png" alt="img" style="max-width: 200px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/sanlam--01.png" alt="img" style="max-width: 165px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/old-mutual-limited-01.png" alt="img" style="max-width: 200px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/miway-co-za-01.png" alt="img" style="max-width: 150px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/Liberty Holdings.png" alt="img" style="max-width: 200px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/clientele-01.png" alt="img" style="max-width: 200px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/discovery-01.png" alt="img" style="max-width: 200px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/Avbob.png" alt="img" style="max-width: 125px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/Gems.png" alt="img" style="max-width: 125px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/Assupol.png" alt="img" style="max-width: 125px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/hollard-logo-vector-01.png" alt="img" style="max-width: 125px;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="marquee-area">
+            <div class="container-fluid p-0 overflow-hidden">
+                <div class="container"></div>
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6">
+                            <div class="title-area text-center">
+                                <h2 class="sec-title">Partners</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__marquee">
+                    <div class="marquee_mode">
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/amplifin.png" alt="img" style="max-width: 200px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/Asisa.png" alt="img" style="max-width: 125px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/SAIA.png" alt="img" style="max-width: 110px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/Imbewu logo (2).png" alt="img" style="max-width: 130px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/We think code.png" alt="img" style="max-width: 100px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/SC-01.png" alt="img" style="max-width: 200px;"></a>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="assets/img/client/Nanoteq.png" alt="img" style="max-width: 200px;"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <div class="container-fluid"style="background-image: url(assets/img/hero/hero_bg_5_1.png);">
+        <div class="container" >
+            <div class="counter-area-2">
+                <div class="row gy-40 justify-content-between">
+                    <div class="col-sm-6 col-lg-auto">
+                        <div class="counter-card style2">
+                            <div class="media-body">
+                                <p class="counter-card_text" style="color: #c4f500;">FOUNDED</p>
+                                <h2><span class="counter-number" style="color: white;">1998</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-auto">
+                        <div class="counter-card style2">
+                            <div class="media-body">
+                                <p class="counter-card_text" style="color: #c4f500;">CLIENTS</p>
+                                <h2><span class="counter-number" style="color: white;">438</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-auto">
+                        <div class="counter-card style2">
+                            <div class="media-body">
+                                <p class="counter-card_text" style="color: #c4f500;">SERVING EMPLOYEES</p>
+                                <h2><span class="counter-number" style="color: white;">4.5</span> <span style="color: white;">Million</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-auto">
+                        <div class="counter-card style2">
+                            <div class="media-body">
+                                <p class="counter-card_text" style="color: #c4f500;">COLLECTING PER MONTH</p>
+                                <h2 style="color: white;">R<span class="counter-number">5.5</span><span style="color: white;"> Billion+</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-auto">
+                        <div class="counter-card style2">
+                            <div class="media-body"></div>
+                                <p class="counter-card_text" style="color: #c4f500;">LOCATIONS <br><strong style="color: white;">PRETORIA, SANDTON &amp; <br>CAPE TOWN</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    Team Area  
+    ==============================-->
+    <div class="team-area-1 space-top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="title-area text-center">
+                        <span class="sub-title"><img src="assets/img/favicons/QLink-08.png" style="max-height: 40px;" alt="shape">Our
+                            Team</span>
+                        <h2 class="sec-title">Executive Leadership</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-30 global-carousel team-slider2" data-slide-show="4" data-xl-slide-show="3"
+            data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1" data-dots="true" data-xl-dots="true"
+            data-ml-dots="true" data-lg-dots="true" data-md-dots="true">
+            <div class="col-lg-6">
+                <div class="team-card">
+                    <div class="team-card_wrapp">
+                        <div class="team-card_img">
+                            <img src="assets/img/team/Ian.png" alt="img">
+                        </div>
+                        <div class="team-social">
+                            <div class="plus-btn">
+                                <img src="assets/img/icon/share.svg" alt="">
+                            </div>
+                            <div class="global-social">
+                                <a href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><img src="assets/img/icon/share2.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card_content">
+                        <h4 class="team-card_title"><a href="#">Ian Thompson</a>
+                        </h4>
+                        <span class="team-card_desig">Chief Executive Officer</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="team-card">
+                    <div class="team-card_wrapp">
+                        <div class="team-card_img">
+                            <img src="assets/img/team/Craig.png" alt="img">
+                        </div>
+                        <div class="team-social">
+                            <div class="plus-btn">
+                                <img src="assets/img/icon/share.svg" alt="">
+                            </div>
+                            <div class="global-social">
+                                <a href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><img src="assets/img/icon/share2.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card_content">
+                        <h4 class="team-card_title"><a href="#">Craig Bayford</a>
+                        </h4>
+                        <span class="team-card_desig">Designation</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="team-card">
+                    <div class="team-card_wrapp">
+                        <div class="team-card_img">
+                            <img src="assets/img/team/Aline.png" alt="img">
+                        </div>
+                        <div class="team-social">
+                            <div class="plus-btn">
+                                <img src="assets/img/icon/share.svg" alt="">
+                            </div>
+                            <div class="global-social">
+                                <a href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><img src="assets/img/icon/share2.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card_content">
+                        <h4 class="team-card_title"><a href="#">Aline Kruger</a>
+                        </h4>
+                        <span class="team-card_desig">Designation</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="team-card">
+                    <div class="team-card_wrapp">
+                        <div class="team-card_img">
+                            <img src="assets/img/team/Andrew.jpeg" alt="img">
+                        </div>
+                        <div class="team-social">
+                            <div class="plus-btn">
+                                <img src="assets/img/icon/share.svg" alt="">
+                            </div>
+                            <div class="global-social">
+                                <a href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><img src="assets/img/icon/share2.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card_content">
+                        <h4 class="team-card_title"><a href="#">Andrew Yates</a>
+                        </h4>
+                        <span class="team-card_desig">Designation</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="team-card">
+                    <div class="team-card_wrapp">
+                        <div class="team-card_img">
+                            <img src="assets/img/team/Rhandesh.png" alt="img">
+                        </div>
+                        <div class="team-social">
+                            <div class="plus-btn">
+                                <img src="assets/img/icon/share.svg" alt="">
+                            </div>
+                            <div class="global-social">
+                                <a href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><img src="assets/img/icon/share2.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card_content">
+                        <h4 class="team-card_title"><a href="#">Rhandesh Sookdeo</a>
+                        </h4>
+                        <span class="team-card_desig">Chief Information Officer</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="team-card">
+                    <div class="team-card_wrapp">
+                        <div class="team-card_img">
+                            <img src="assets/img/team/James.png" alt="img">
+                        </div>
+                        <div class="team-social">
+                            <div class="plus-btn">
+                                <img src="assets/img/icon/share.svg" alt="">
+                            </div>
+                            <div class="global-social">
+                                <a href="#" tabindex="0"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" tabindex="0"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><img src="assets/img/icon/share2.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card_content">
+                        <h4 class="team-card_title"><a href="#">James Radebe</a>
+                        </h4>
+                        <span class="team-card_desig">Client Engagement Executive</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--==============================
+    Blog Area  
+    ==============================-->
+
+    <section class="blog-area-1 space-bottom"></section>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-6">
+                    <div class="title-area">
+                        <span class="sub-title"><img src="assets/img/favicons/QLink-08.png" style="max-height: 40px;" alt="shape">Industry Insights</span>
+                        <h2 class="sec-title style2">Thought Leadership Articles</h2>
+                    </div>
+                </div>
+                <div class="col-lg-auto align-self-end">
+                    <div class="icon-box mb-60">
+                        <button data-slick-prev=".blog-slider3" class="slick-arrow default"><i class="fas fa-arrow-left"></i></button>
+                        <button data-slick-next=".blog-slider3" class="slick-arrow default"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row global-carousel blog-slider3 slider-shadow" data-slide-show="3" data-lg-slide-show="2"
+                data-md-slide-show="1" data-sm-slide-show="1" data-xs-slide-show="1" data-dots="false">
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-card style2">
+                        <div class="blog-img">
+                            <img src="assets/img/blog/payments_landscape.jpg" alt="blog image">
+
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="#"><i class="fas fa-user"></i>By Leana Hanscomb</a>
+                                <a href="#"><i class="fas fa-comments"></i>Comments</a>
+                            </div>
+                            <h3 class="blog-title"><a href="#">Payments Landscape</a></h3>
+                            <br />
+                            <a class="global-btn style-border4" href="#">
+                                Read More <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-card style2">
+                        <div class="blog-img">
+                            <img src="assets/img/blog/payroll_services.jpg" alt="blog image">
+
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="#"><i class="fas fa-user"></i>By Stuart Curtis</a>
+                                <a href="#"><i class="fas fa-comments"></i>Comments</a>
+                            </div>
+                            <h3 class="blog-title"><a href="#">Evolution of Payroll Services</a></h3>
+                            <br />
+                            <a class="global-btn style-border4" href="#">
+                                Read More <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-card style2">
+                        <div class="blog-img">
+                            <img src="assets/img/blog/UIF_notice.jpg" alt="blog image">
+
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <a href="#"><i class="fas fa-user"></i>By Shamir Singh</a>
+                                <a href="#"><i class="fas fa-comments"></i>Comments</a>
+                            </div>
+                            <h3 class="blog-title"><a href="#">Temporary disruption of UIF online platforms</a></h3>
+                            <a class="global-btn style-border4" href="#">
+                                Read More <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <p>&nbsp;</p>
+
+    <div class="container">
+        <div class="footer-top-1 bg-theme">
+            <div class="footer-top-content">
+                <h3 class="footer-top-title text-white">Newsletter</h3>
+                <p class="footer-top-text">Subscribe to our newsletter!</p>
+            </div>
+            <form class="newsletter-form">
+                <div class="form-group">
+                    <input class="form-control" type="email" placeholder="Email Address" required="">
+                    <button type="submit" class="global-btn">Subscribe<span class="icon"><i
+                                class="fa-sharp fas fa-paper-plane ms-2"></i></span></button> 
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--==============================
+        Footer Area
+    ==============================-->
+    <footer class="footer-wrapper footer-layout1" style="background-image: url(assets/img/bg/footer-bg1-1.png);">
+        <div class="container">
+            <div class="widget-area">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-xl-5">
+                        <div class="widget footer-widget widget-about">
+                            <div class="about-logo">
+                                <a href="#"><img src="assets/img/logos/Ian's logo changes-04.png" alt="Q Link" width="375"></a>
+                            </div>
+                            <div class="social-btn style3">
+                                <a href="#" tabindex="-1"><i class="fab fa-instagram"></i></a>
+                                <a href="#" tabindex="-1"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" tabindex="-1"><i class="fab fa-twitter"></i></a>
+                                <a href="#" tabindex="-1"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto">
+                        <div class="widget widget_nav_menu footer-widget">
+                            <h3 class="widget_title">Useful Links</h3>
+                            <div class="menu-all-pages-container">
+                                <ul class="menu">
+                                    <li><a href="#">AUTHENTIFI™</a></li>
+                                    <li><a href="#">Alchemy</a></li>
+                                    <li><a href="#">MoneyHub</a></li>
+                                    <li><a href="#">PeopleWare ClientZone</a></li>
+                                    <li><a href="#">PeopleWare Business Partners</a></li>
+                                    <li><a href="#">RegKey Request</a></li>
+                                    <li><a href="#">Community Development</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="widget footer-widget me-xl-3">
+                            <h3 class="widget_title">Contact</h3>
+                            <div class="widget-contact2">
+                                <div class="widget-contact-grid">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <div class="contact-grid-details">
+                                        <h6>
+                                            <a href="#">+27 (0) 12 443 6300</a> <br />
+                                            <a href="#">+27 (0) 11 719 8000</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="widget-contact-grid">
+                                    <i class="fas fa-envelope"></i>
+                                    <div class="contact-grid-details">
+                                        <h6><a href="#">info@qlink.co.za</a></p>
+                                    </div>
+                                </div>
+                                <div class="widget-contact-grid">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div class="contact-grid-details">
+                                        <h6>375 Oberon Ave,
+                                            Faerie Glen,
+                                            Pretoria
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div class="widget-contact-grid">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div class="contact-grid-details">
+                                        <h6>
+                                            3 Sundown Valley, Sandton
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright-wrap">
+                <div class="row gy-3 justify-content-lg-between justify-content-center">
+                    <div class="col-auto align-self-center">
+                        <p class="copyright-text text-center">© <a href="#">Q Link </a> 2024 | All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="footer-links">
+                            <a href="#">Privacy</a>
+                            <a href="#">Terms &amp; Conditions</a>
+                            <a href="#">Sitemap</a>
+                            <a href="#">Help</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--********************************
+			Code End  Here 
+	******************************** -->
+
+    <!-- Scroll To Top -->
+    <div class="scroll-top">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg>
+    </div>
+
+    <!--==============================
+    All Js File
+    ============================== -->
+    <!-- Jquery -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Range Slider -->
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Counter Up -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Marquee -->
+    <script src="assets/js/jquery.marquee.min.js"></script>
+    <!-- Isotope Filter -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+
+    <!-- Main Js File -->
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
